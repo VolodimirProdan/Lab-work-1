@@ -1,4 +1,4 @@
-### Лабораторна робота 1: Вивчення git
+# Лабораторна робота 1: Вивчення git
 Налаштування глобальних параметрів Git для імені користувача та електронної пошти. За допомогою команд git config --global user.name та git config --global user.email встановлюються основні ідентифікаційні дані для роботи з Git.
 
 <p align="center">
@@ -502,17 +502,18 @@ markdownCopy<h1>Лабораторна робота 1: Вивчення git</h1>
 <img src="Screenshots/ (85).png" alt="(85)"/>
 </p>`
 
-Скриншот 86:
+
+
 Команда git daemon --verbose --export-all --base-path=. запускає службу Git, яка дозволяє іншим користувачам підключатися до цього репозиторію за допомогою протоколу Git. Це корисно для спільної роботи над проектом.
 <p align="center">
   <img src="Screenshots/ (86).png" alt="(3)"/>
 </p>
-Скриншот 87:
+
 Клонування локального репозиторію. Команда git clone git://localhost/work.git network_work клонує репозиторій, розміщений за вказаною адресою, до папки "network_work".
 <p align="center">
   <img src="Screenshots/ (87).png" alt="(4)"/>
 </p>
-Скриншот 88:
+
 Додавання файлу README до робочої копії проекту. Команди git switch main, git add README та git commit -m "Added shared comment to README" додають новий файл README до репозиторію і фіксують зміни.
 <p align="center">
   <img src="Screenshots/ (88).png" alt="(5)"/>
